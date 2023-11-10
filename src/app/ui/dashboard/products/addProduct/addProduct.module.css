@@ -15,7 +15,7 @@
 
 .form input, .form textarea, .form select{
     padding: 30px;
-    background-color: transparent;
+    background-color: var(--bg);
     color: var(--text);
     border: 2px solid #2e374a;
     border-radius: 5px;
@@ -27,7 +27,8 @@
 }
 
 .form select option{
-    color: black;
+    color: white;
+    background-color: var(--bg);
 }
 
 .form textarea{
